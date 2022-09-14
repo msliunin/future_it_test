@@ -1,0 +1,4 @@
+btc_price = int(input("Input BTC to USD price, please: "))
+money_in_hand = int(input("Input $ you want to spend: "))
+btc_amount = money_in_hand/btc_price
+print("You can buy",  btc_amount, "bitcoins")
